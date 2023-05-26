@@ -23,6 +23,11 @@ Since its invention in 1986, ZKP systems, more and more,  become building blocks
     - [with URS(Uniform Reference String)](#with-ursuniform-reference-string)
       - [DL-based](#dl-based)
       - [VOLE-based (Commit-and-prove type)](#vole-based-commit-and-prove-type)
+    - [ZKSNARKS]
+      - [Survey \& Tutorial]
+      - [Theory]
+      - [Implementation]
+    - [STARKS]
   - [ZKP Standard Efforts](#zkp-standard-efforts)
   - [Applications on ZKP systems](#applications-on-zkp-systems)
 
@@ -359,6 +364,67 @@ Without trusted setup.
 - AntMan: Interactive Zero-Knowledge Proofs with Sublinear Communication  
   *Chenkai Weng, Kang Yang, Zhaomin Yang, Xiang Xie, and Xiao Wang*  
   CCS 2022, [paper](https://eprint.iacr.org/2022/566), WYY+22
+
+### ZKSNARKS
+
+#### Survey&Tutorial
+
+- zk-SNARKs: A Gentle Introduction
+  *Anca Nitulescu*
+  [paper](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs), 2020
+ 
+- zkSNARKs in a nutshell
+  *Christian Reitwiessner*
+  Ethereum blog 2016, [blog](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs)
+ 
+#### Theory
+
+- Quadratic Span Programs and Succinct NIZKs without PCPs  
+  *Rosario Gennaro, Craig Gentry, Bryan Parno, and Mariana Raykova*  
+  EUROCRYPT 2013, [paper](https://eprint.iacr.org/2012/215), GGPR13
+  
+- From extractable collision resistance to succinct non-interactive arguments of knowledge, and back again
+ *Nir Bitansky, Ran Canetti, Alessandro Chiesa, and Eran Tromer*
+  ITCS 2012, [paper](https://eprint.iacr.org/2011/443), BCC+12
+ 
+- Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture
+ *Eli Ben-Sasson, Alessandro Chiesa, Eran Tromer, and Madars Virza*
+  USENIX Security 2014, [paper](https://eprint.iacr.org/2013/879), BCT+14
+  
+- On the Size of Pairing-Based Non-Interactive Arguments  
+  *Groth Jens*  
+  EUROCRYPT 2016, [paper](https://eprint.iacr.org/2016/260), Gro16
+
+- PLONK: Permutations over Lagrange-Bases for Oecumenical Noninteractive Arguments of Knowledge  
+  *Ariel Gabizon, Zachary J. Williamson, and Oana Ciobotaru*  
+  eprint 2019, [paper](https://eprint.iacr.org/2019/953), GWC19
+  
+- Halo: Recursive Proof Composition without a Trusted Setup
+ *Sean Bowe, Jack Grigg, and Daira Hopwood*
+  eprint 2019, [paper](https://eprint.iacr.org/2019/1021), BGH19
+
+#### Implementation
+
+- PipeZK: Accelerating Zero-Knowledge Proof with a Pipelined Architecture
+ *Ye Zhang, Shuo Wang, Xian Zhang, Jiangbin Dong, Xingzhong Mao, Fan Long, Cong Wang, Dong Zhou, Mingyu Gao, and Guangyu Sun*
+  ISCA 2021, [paper](https://www.microsoft.com/en-us/research/uploads/prod/2021/05/isca21_pizk-60a269dbb1310), ZWZ+21
+  
+- GZKP: A GPU Accelerated Zero-Knowledge Proof System
+ *Weiliang Ma, Qian Xiong, Xuanhua Shi, Xiaosong Ma, Haici Jin, Haozhao Kuang, M. Gao, Ye Zhang, Haichen Shen, and Weifang Hu*
+  ASPLOS 2023, [paper](https://dl.acm.org/doi/10.1145/3575693.3575711), MXS+23
+  
+### STARKS
+- Scalable, transparent, and post-quantum secure computational integrity
+  *Eli Ben-Sasson, Iddo Bentov, Y. Horesh, and Michael Riabzev*
+  eprint 2018, [paper](https://eprint.iacr.org/2018/046), BBH+18
+  
+- DEEP-FRI: Sampling outside the box improves soundness
+  *Eli Ben-Sasson, Lior Goldberg, Swastik Kopparty, Shubhangi Saraf*
+  eprint 2019, [paper](https://eprint.iacr.org/2019/336), BGK+19
+  
+- Proximity Gaps for Reed–Solomon Codes
+  *Eli Ben-Sasson, Dan Carmon, Y. Ishai, Swastik Kopparty, Shubhangi Saraf*
+  FOCS 2020, [paper](https://ieeexplore.ieee.org/document/9317990), BCI+20
 
 ## ZKP Standard Efforts
 
